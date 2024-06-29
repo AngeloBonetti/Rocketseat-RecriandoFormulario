@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .staatliches-regular {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ */
+/* .poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+h1,
+h2,
+h3,
+button {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+}
+
+p,
+h3,
+button {
+  font-size: 20px;
+}
+
+p,
+label,
+span {
+  font-family: "Poppins", sans-serif;
+}
+
+header,
+main,
+footer {
+  width: 750px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EFEFEF;
+}
+
+#container {
+  width: 100vw;
+  height: 436px;
+  background-color: #535971;
+  position: absolute;
+  z-index: -1;
+}
+
+header {
+  margin-top: 140px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #FFFF;
+  margin-bottom: 18px;
+}
+
+p {
+  width: 417px;
+  margin-bottom: 58px;
+  color: #FFFF;
+}
+
+main {
+  background-color: #FFFF;
+  border-radius: 20px 20px 0 0;
+  padding: 64px;
+}
+
+h2,
+h3 {
+  color: #535971;
+}
+
+form h2 {
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 16px;
+  margin-bottom: 36px;
+}
+
+form div {
+  margin-bottom: 16px;
+}
+
+input {
+  padding: 20px;
+  background-color: #FAFAFC;
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.nome {
+  display: inline-block;
+  width: 300px;
+}
+
+.nome2 {
+  margin-left: 18px;
+}
+
+label {
+  font-size: 14px;
+  color: #4E4958;
+}
+
+span {
+  font-size: 12px;
+  padding-left: 7px;
+  color: #C1BCCC;
+}
+
+h3 {
+  margin-bottom: 11px;
+}
+
+.horarios {
+  display: flex;
+  flex-direction: row;
+}
+
+.data {
+  width: 300px;
+  margin-right: 32px;
+}
+
+.hora {
+  width: 140px;
+
+}
+
+.horarios div:nth-child(2) {
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #535971;
+  height: 160px;
+  border-radius: 0 0 20px 20px;
+  padding: 51px 71px 51px 71px;
+}
+
+button {
+  background-color: #FF5374;
+  color: #FFFF;
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  padding: 15px 40px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f7244e;
+}
